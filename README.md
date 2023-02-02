@@ -1,6 +1,6 @@
 # opml_ex
 
-This is an Elixir parser for [http://dev.opml.org/](OPML) files/data. OPML files can be used to transport RSS feed data between different RSS feed readers.
+This is an Elixir parser for [http://opml.org/](OPML) files/data. OPML files can be used to transport RSS feed data between different RSS feed readers.
 
 ## Prerequisites
 

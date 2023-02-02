@@ -3,7 +3,7 @@ defmodule Opml.MixProject do
 
   def project do
     [
-      app: :opml,
+      app: :opml_ex,
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -24,7 +24,7 @@ defmodule Opml.MixProject do
 
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger, :eex]
     ]
   end
 
